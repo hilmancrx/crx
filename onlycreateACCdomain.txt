@@ -1,0 +1,553 @@
+{
+  "Name": "crit",
+  "CreationDate": "2020-10-25",
+  "Commands": [
+    {
+      "Command": "open",
+      "Target": "https://billing.exabytes.co.id/register.php",
+      "Value": ""
+    },
+    {
+      "Command": "csvRead",
+      "Target": "email.csv",
+      "Value": ""
+    },
+    {
+      "Command": "click",
+      "Target": "id=main-body",
+      "Value": "",
+      "Targets": [
+        "id=main-body",
+        "xpath=//*[@id=\"main-body\"]",
+        "xpath=//section[@id='main-body']",
+        "xpath=//section",
+        "css=#main-body"
+      ]
+    },
+    {
+      "Command": "click",
+      "Target": "id=inputFirstName",
+      "Value": "",
+      "Targets": [
+        "id=inputFirstName",
+        "name=firstname",
+        "xpath=//*[@id=\"inputFirstName\"]",
+        "xpath=//input[@id='inputFirstName']",
+        "xpath=//div/input",
+        "css=#inputFirstName"
+      ]
+    },
+    {
+      "Command": "type",
+      "Target": "id=inputFirstName",
+      "Value": "aad",
+      "Targets": [
+        "id=inputFirstName",
+        "name=firstname",
+        "xpath=//*[@id=\"inputFirstName\"]",
+        "xpath=//input[@id='inputFirstName']",
+        "xpath=//div/input",
+        "css=#inputFirstName"
+      ]
+    },
+    {
+      "Command": "click",
+      "Target": "id=inputLastName",
+      "Value": "",
+      "Targets": [
+        "id=inputLastName",
+        "name=lastname",
+        "xpath=//*[@id=\"inputLastName\"]",
+        "xpath=//input[@id='inputLastName']",
+        "xpath=//div[2]/div/input",
+        "css=#inputLastName"
+      ]
+    },
+    {
+      "Command": "type",
+      "Target": "id=inputLastName",
+      "Value": "bbaa",
+      "Targets": [
+        "id=inputLastName",
+        "name=lastname",
+        "xpath=//*[@id=\"inputLastName\"]",
+        "xpath=//input[@id='inputLastName']",
+        "xpath=//div[2]/div/input",
+        "css=#inputLastName"
+      ]
+    },
+    {
+      "Command": "click",
+      "Target": "id=inputEmail",
+      "Value": "",
+      "Targets": [
+        "id=inputEmail",
+        "name=email",
+        "xpath=//*[@id=\"inputEmail\"]",
+        "xpath=//input[@id='inputEmail']",
+        "xpath=//div[3]/div/input",
+        "css=#inputEmail"
+      ]
+    },
+    {
+      "Command": "type",
+      "Target": "id=inputEmail",
+      "Value": "${!COL1}",
+      "Targets": [
+        "id=inputEmail",
+        "name=email",
+        "xpath=//*[@id=\"inputEmail\"]",
+        "xpath=//input[@id='inputEmail']",
+        "xpath=//div[3]/div/input",
+        "css=#inputEmail"
+      ]
+    },
+    {
+      "Command": "click",
+      "Target": "id=inputPhone",
+      "Value": "",
+      "Targets": [
+        "id=inputPhone",
+        "name=phonenumber",
+        "xpath=//*[@id=\"inputPhone\"]",
+        "xpath=//input[@id='inputPhone']",
+        "xpath=//div[4]/div/input",
+        "css=#inputPhone"
+      ]
+    },
+    {
+      "Command": "type",
+      "Target": "id=inputPhone",
+      "Value": "8952661772519",
+      "Targets": [
+        "id=inputPhone",
+        "name=phonenumber",
+        "xpath=//*[@id=\"inputPhone\"]",
+        "xpath=//input[@id='inputPhone']",
+        "xpath=//div[4]/div/input",
+        "css=#inputPhone"
+      ]
+    },
+    {
+      "Command": "click",
+      "Target": "id=inputCompanyName",
+      "Value": "",
+      "Targets": [
+        "id=inputCompanyName",
+        "name=companyname",
+        "xpath=//*[@id=\"inputCompanyName\"]",
+        "xpath=//input[@id='inputCompanyName']",
+        "xpath=//div[8]/div/div/input",
+        "css=#inputCompanyName"
+      ]
+    },
+    {
+      "Command": "type",
+      "Target": "id=inputCompanyName",
+      "Value": "alamat",
+      "Targets": [
+        "id=inputCompanyName",
+        "name=companyname",
+        "xpath=//*[@id=\"inputCompanyName\"]",
+        "xpath=//input[@id='inputCompanyName']",
+        "xpath=//div[8]/div/div/input",
+        "css=#inputCompanyName"
+      ]
+    },
+    {
+      "Command": "click",
+      "Target": "id=inputAddress1",
+      "Value": "",
+      "Targets": [
+        "id=inputAddress1",
+        "name=address1",
+        "xpath=//*[@id=\"inputAddress1\"]",
+        "xpath=//input[@id='inputAddress1']",
+        "xpath=//div[8]/div[2]/div/input",
+        "css=#inputAddress1"
+      ]
+    },
+    {
+      "Command": "type",
+      "Target": "id=inputAddress1",
+      "Value": "trgal",
+      "Targets": [
+        "id=inputAddress1",
+        "name=address1",
+        "xpath=//*[@id=\"inputAddress1\"]",
+        "xpath=//input[@id='inputAddress1']",
+        "xpath=//div[8]/div[2]/div/input",
+        "css=#inputAddress1"
+      ]
+    },
+    {
+      "Command": "click",
+      "Target": "id=inputAddress2",
+      "Value": "",
+      "Targets": [
+        "id=inputAddress2",
+        "name=address2",
+        "xpath=//*[@id=\"inputAddress2\"]",
+        "xpath=//input[@id='inputAddress2']",
+        "xpath=//div[8]/div[3]/div/input",
+        "css=#inputAddress2"
+      ]
+    },
+    {
+      "Command": "type",
+      "Target": "id=inputAddress2",
+      "Value": "tegal",
+      "Targets": [
+        "id=inputAddress2",
+        "name=address2",
+        "xpath=//*[@id=\"inputAddress2\"]",
+        "xpath=//input[@id='inputAddress2']",
+        "xpath=//div[8]/div[3]/div/input",
+        "css=#inputAddress2"
+      ]
+    },
+    {
+      "Command": "click",
+      "Target": "id=inputCity",
+      "Value": "",
+      "Targets": [
+        "id=inputCity",
+        "name=city",
+        "xpath=//*[@id=\"inputCity\"]",
+        "xpath=//input[@id='inputCity']",
+        "xpath=//div[8]/div[4]/div/input",
+        "css=#inputCity"
+      ]
+    },
+    {
+      "Command": "type",
+      "Target": "id=inputCity",
+      "Value": "tegal",
+      "Targets": [
+        "id=inputCity",
+        "name=city",
+        "xpath=//*[@id=\"inputCity\"]",
+        "xpath=//input[@id='inputCity']",
+        "xpath=//div[8]/div[4]/div/input",
+        "css=#inputCity"
+      ]
+    },
+    {
+      "Command": "click",
+      "Target": "id=stateinput",
+      "Value": "",
+      "Targets": [
+        "id=stateinput",
+        "name=state",
+        "xpath=//*[@id=\"stateinput\"]",
+        "xpath=//input[@id='stateinput']",
+        "xpath=//div[5]/div/input",
+        "css=#stateinput"
+      ]
+    },
+    {
+      "Command": "type",
+      "Target": "id=stateinput",
+      "Value": "jawa",
+      "Targets": [
+        "id=stateinput",
+        "name=state",
+        "xpath=//*[@id=\"stateinput\"]",
+        "xpath=//input[@id='stateinput']",
+        "xpath=//div[5]/div/input",
+        "css=#stateinput"
+      ]
+    },
+    {
+      "Command": "click",
+      "Target": "id=inputPostcode",
+      "Value": "",
+      "Targets": [
+        "id=inputPostcode",
+        "name=postcode",
+        "xpath=//*[@id=\"inputPostcode\"]",
+        "xpath=//input[@id='inputPostcode']",
+        "xpath=//div[6]/div/input",
+        "css=#inputPostcode"
+      ]
+    },
+    {
+      "Command": "type",
+      "Target": "id=inputPostcode",
+      "Value": "51921",
+      "Targets": [
+        "id=inputPostcode",
+        "name=postcode",
+        "xpath=//*[@id=\"inputPostcode\"]",
+        "xpath=//input[@id='inputPostcode']",
+        "xpath=//div[6]/div/input",
+        "css=#inputPostcode"
+      ]
+    },
+    {
+      "Command": "click",
+      "Target": "id=customfield467",
+      "Value": "",
+      "Targets": [
+        "id=customfield467",
+        "name=customfield[467]",
+        "xpath=//*[@id=\"customfield467\"]",
+        "xpath=//input[@id='customfield467']",
+        "xpath=//div[10]/div/div/input",
+        "css=#customfield467"
+      ]
+    },
+    {
+      "Command": "type",
+      "Target": "id=customfield467",
+      "Value": "628661937",
+      "Targets": [
+        "id=customfield467",
+        "name=customfield[467]",
+        "xpath=//*[@id=\"customfield467\"]",
+        "xpath=//input[@id='customfield467']",
+        "xpath=//div[10]/div/div/input",
+        "css=#customfield467"
+      ]
+    },
+    {
+      "Command": "click",
+      "Target": "id=customfield717",
+      "Value": "",
+      "Targets": [
+        "id=customfield717",
+        "name=customfield[717]",
+        "xpath=//*[@id=\"customfield717\"]",
+        "xpath=//input[@id='customfield717']",
+        "xpath=//div[10]/div[2]/div/input",
+        "css=#customfield717"
+      ]
+    },
+    {
+      "Command": "type",
+      "Target": "id=customfield717",
+      "Value": "23335235",
+      "Targets": [
+        "id=customfield717",
+        "name=customfield[717]",
+        "xpath=//*[@id=\"customfield717\"]",
+        "xpath=//input[@id='customfield717']",
+        "xpath=//div[10]/div[2]/div/input",
+        "css=#customfield717"
+      ]
+    },
+    {
+      "Command": "click",
+      "Target": "id=customfield811",
+      "Value": "",
+      "Targets": [
+        "id=customfield811",
+        "name=customfield[811]",
+        "xpath=//*[@id=\"customfield811\"]",
+        "xpath=//input[@id='customfield811']",
+        "xpath=//div[10]/div[3]/div/input",
+        "css=#customfield811"
+      ]
+    },
+    {
+      "Command": "type",
+      "Target": "id=customfield811",
+      "Value": "234324234",
+      "Targets": [
+        "id=customfield811",
+        "name=customfield[811]",
+        "xpath=//*[@id=\"customfield811\"]",
+        "xpath=//input[@id='customfield811']",
+        "xpath=//div[10]/div[3]/div/input",
+        "css=#customfield811"
+      ]
+    },
+    {
+      "Command": "click",
+      "Target": "id=customfield856",
+      "Value": "",
+      "Targets": [
+        "id=customfield856",
+        "name=customfield[856]",
+        "xpath=//*[@id=\"customfield856\"]",
+        "xpath=//input[@id='customfield856']",
+        "xpath=//div[10]/div[4]/div/input",
+        "css=#customfield856"
+      ]
+    },
+    {
+      "Command": "type",
+      "Target": "id=customfield856",
+      "Value": "3335235673465",
+      "Targets": [
+        "id=customfield856",
+        "name=customfield[856]",
+        "xpath=//*[@id=\"customfield856\"]",
+        "xpath=//input[@id='customfield856']",
+        "xpath=//div[10]/div[4]/div/input",
+        "css=#customfield856"
+      ]
+    },
+    {
+      "Command": "click",
+      "Target": "id=inputNewPassword1",
+      "Value": "",
+      "Targets": [
+        "id=inputNewPassword1",
+        "name=password",
+        "xpath=//*[@id=\"inputNewPassword1\"]",
+        "xpath=//input[@id='inputNewPassword1']",
+        "xpath=//div[2]/div[2]/div/input",
+        "css=#inputNewPassword1"
+      ]
+    },
+    {
+      "Command": "type",
+      "Target": "id=inputNewPassword1",
+      "Value": "Hilman17@",
+      "Targets": [
+        "id=inputNewPassword1",
+        "name=password",
+        "xpath=//*[@id=\"inputNewPassword1\"]",
+        "xpath=//input[@id='inputNewPassword1']",
+        "xpath=//div[2]/div[2]/div/input",
+        "css=#inputNewPassword1"
+      ]
+    },
+    {
+      "Command": "click",
+      "Target": "id=inputNewPassword2",
+      "Value": "",
+      "Targets": [
+        "id=inputNewPassword2",
+        "name=password2",
+        "xpath=//*[@id=\"inputNewPassword2\"]",
+        "xpath=//input[@id='inputNewPassword2']",
+        "xpath=//div[2]/div[3]/div/input",
+        "css=#inputNewPassword2"
+      ]
+    },
+    {
+      "Command": "type",
+      "Target": "id=inputNewPassword2",
+      "Value": "Hilman17@",
+      "Targets": [
+        "id=inputNewPassword2",
+        "name=password2",
+        "xpath=//*[@id=\"inputNewPassword2\"]",
+        "xpath=//input[@id='inputNewPassword2']",
+        "xpath=//div[2]/div[3]/div/input",
+        "css=#inputNewPassword2"
+      ]
+    },
+    {
+      "Command": "click",
+      "Target": "id=inputSecurityQId",
+      "Value": "",
+      "Targets": [
+        "id=inputSecurityQId",
+        "name=securityqid",
+        "xpath=//*[@id=\"inputSecurityQId\"]",
+        "xpath=//select[@id='inputSecurityQId']",
+        "xpath=//div[3]/div/select",
+        "css=#inputSecurityQId"
+      ]
+    },
+    {
+      "Command": "select",
+      "Target": "id=inputSecurityQId",
+      "Value": "label=Apa warna favorit anda?",
+      "Targets": [
+        "id=inputSecurityQId",
+        "name=securityqid",
+        "xpath=//*[@id=\"inputSecurityQId\"]",
+        "xpath=//select[@id='inputSecurityQId']",
+        "xpath=//div[3]/div/select",
+        "css=#inputSecurityQId"
+      ]
+    },
+    {
+      "Command": "click",
+      "Target": "id=inputSecurityQId",
+      "Value": "",
+      "Targets": [
+        "id=inputSecurityQId",
+        "name=securityqid",
+        "xpath=//*[@id=\"inputSecurityQId\"]",
+        "xpath=//select[@id='inputSecurityQId']",
+        "xpath=//div[3]/div/select",
+        "css=#inputSecurityQId"
+      ]
+    },
+    {
+      "Command": "click",
+      "Target": "id=inputSecurityQAns",
+      "Value": "",
+      "Targets": [
+        "id=inputSecurityQAns",
+        "name=securityqans",
+        "xpath=//*[@id=\"inputSecurityQAns\"]",
+        "xpath=//input[@id='inputSecurityQAns']",
+        "xpath=//div[3]/div[2]/div/input",
+        "css=#inputSecurityQAns"
+      ]
+    },
+    {
+      "Command": "type",
+      "Target": "id=inputSecurityQAns",
+      "Value": "111111ez",
+      "Targets": [
+        "id=inputSecurityQAns",
+        "name=securityqans",
+        "xpath=//*[@id=\"inputSecurityQAns\"]",
+        "xpath=//input[@id='inputSecurityQAns']",
+        "xpath=//div[3]/div[2]/div/input",
+        "css=#inputSecurityQAns"
+      ]
+    },
+    {
+      "Command": "type",
+      "Target": "name=accepttos",
+      "Value": "on",
+      "Targets": [
+        "name=accepttos",
+        "xpath=//*[@id=\"frmCheckout\"]/div[4]/div/div/div[2]/div/label/input",
+        "xpath=//input[@name='accepttos']",
+        "xpath=//label/input",
+        "css=#frmCheckout > div.row > div > div > div.panel-body > div > label > input"
+      ]
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//*[@id=\"frmCheckout\"]/div[4]/div/div/div[2]/div/label",
+      "Value": "",
+      "Targets": [
+        "xpath=//*[@id=\"frmCheckout\"]/div[4]/div/div/div[2]/div/label",
+        "xpath=//div[4]/div/div/div[2]/div/label",
+        "css=#frmCheckout > div.row > div > div > div.panel-body > div > label"
+      ]
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//*[@id=\"frmCheckout\"]/p/input",
+      "Value": "",
+      "Targets": [
+        "xpath=//*[@id=\"frmCheckout\"]/p/input",
+        "xpath=//input[@value='Register']",
+        "xpath=//p/input",
+        "css=#frmCheckout > p > input"
+      ]
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//*[@id=\"frmCheckout\"]/p/input",
+      "Value": "",
+      "Targets": [
+        "xpath=//*[@id=\"frmCheckout\"]/p/input",
+        "xpath=//input[@value='Register']",
+        "xpath=//p/input",
+        "css=#frmCheckout > p > input"
+      ]
+    }
+  ]
+}
